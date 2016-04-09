@@ -1,0 +1,68 @@
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="1">
+
+
+    <TextView
+        android:layout_width="254dp"
+        android:layout_height="35dp"
+        android:text="Your Name :"
+        android:id="@+id/textView"
+        android:layout_weight="0.00" />
+
+    <TextView
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textName"
+        android:layout_weight="0.04" />
+
+    <TextView
+        android:layout_width="254dp"
+        android:layout_height="35dp"
+        android:text="Your Name :"
+        android:id="@+id/textView1"
+        android:layout_weight="0.00" />
+
+    <TextView
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textPhone"
+        android:layout_weight="0.04" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get by SharedPreference"
+        android:id="@+id/btnShared"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.00" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get by Internal"
+        android:id="@+id/btnInternal"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.00" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get by external"
+        android:id="@+id/btnExternal"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.00" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get by sqlite"
+        android:id="@+id/btnSqlite"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.00" />
+
+
+</LinearLayout>
